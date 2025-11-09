@@ -13,9 +13,9 @@ if(Viskores_ENABLE_OPENMP)
   find_package(OpenMP REQUIRED)
 endif()
 
-add_executable(vf_divergence vf_divergence.cxx)
-target_link_libraries(vf_divergence PRIVATE viskores::filter_core viskores::filter_vector_analysis viskores::io)
+add_executable(vf_divergence_uncertainty vf_divergence_uncertainty.cxx)
+target_link_libraries(vf_divergence_uncertainty PRIVATE viskores::filter_core viskores::filter_vector_analysis viskores::io)
 if(Viskores_ENABLE_OPENMP AND OpenMP_CXX_FOUND)
-  target_link_libraries(vf_divergence PRIVATE OpenMP::OpenMP_CXX)
+  target_link_libraries(vf_divergence_uncertainty PRIVATE OpenMP::OpenMP_CXX)
 endif()
 

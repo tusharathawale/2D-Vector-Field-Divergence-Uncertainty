@@ -8,7 +8,7 @@
 
 - Generate the makefile and create an executable.
 
-- Run "./vf_divergence". The code will run on the Red Sea simulation dataset in the paper. The Red Sea dataset is courtesy of IEEE SciVis constest 2020. https://kaust-vislab.github.io/SciVis2020/
+- Run "./vf_divergence_uncertainty". The code will run on the Red Sea simulation dataset in the paper. The Red Sea dataset is courtesy of IEEE SciVis constest 2020. https://kaust-vislab.github.io/SciVis2020/
 
 - Visualize the generated result in ParaView with parameter/colormap settings in the paper (https://arxiv.org/pdf/2510.01190).
 

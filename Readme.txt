@@ -1,4 +1,4 @@
-/*============================================================================
+============================================================================
 
 Title  -   Efficient Probabilistic Visualization of Local Divergence of 2D Vector Fields with Independent Gaussian Uncertainty
 Authors -  T. A. J. Ouermi, E. Li, K. Moreland, D. Pugmire, C. R. Johnson, T. M. Athawale
@@ -10,7 +10,7 @@ Preprint: https://arxiv.org/pdf/2510.01190
 
 This code is distributed under the OSI-approved BSD 3-clause License. See LICENSE.txt for details.
  
-============================================================================*/
+============================================================================
 
 - Build the viskores library freshly (with serial/OpenMP/GPU backend you need) using the viskores source code (tested with viskores 1.0).
 
